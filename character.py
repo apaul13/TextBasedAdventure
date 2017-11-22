@@ -9,14 +9,14 @@ class Character():
     def isAlive(self):
         return self.hp > 0
     
-    def getName():
+    def getName(self):
         return self.name
 
-    def getHp():
+    def getHp(self):
         return self.hp
 
     def setWeapon(self, weapon):
         self.weapon = weapon
 
-    def isWinner():
+    def isWinner(self):
         return self.winner
