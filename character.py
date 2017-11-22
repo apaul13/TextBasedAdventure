@@ -1,5 +1,3 @@
-__author__ = "Austin Paul"
-
 class Character():
 
     def __init__(self, name, hp, winner):
