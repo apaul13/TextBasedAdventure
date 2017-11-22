@@ -1,16 +1,17 @@
-class Weapon():
+from .items import Item
 
-    def __init__(name, damage, description):
-        self.name = name
+class Weapon(Item):
+    """Base Class for weapons"""
+    def __init__(self, name, damage, description):
+        super().__init__(name, description)
         self.damage = damage
-        self.description = description
     
-    def getName():
-        return name
+    def getName(self):
+        return self.name
 
-    def getDamage():
-        return damage
+    def getDamage(self):
+        return self.damage
 
-    def getDescription():
-        return description
+    def getDescription(self):
+        return self.description
     
